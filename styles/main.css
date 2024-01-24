@@ -11,6 +11,11 @@
     --raleway: "Raleway";
 }
 
+::selection {
+    background-color: var(--primary-green);
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -22,6 +27,7 @@ ul {
 body {
     font-family: var(--raleway);
     background-color: black;
+    overflow-x: hidden;
 }
 
 .container {
@@ -115,6 +121,11 @@ body {
 
 .nav-link:hover {
     background: rgba(105, 207, 23, 0.75);
+}
+
+.active {
+    background: rgba(105, 207, 23, 0.75);
+
 }
 
 .header-hero {
@@ -265,6 +276,7 @@ body {
 
 .content:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .locate {
@@ -321,4 +333,34 @@ body {
     font-family: var(--raleway);
     font-size: 20px;
     font-weight: 400;
+}
+
+.about-main__desc {
+    padding-top: 30px;
+    color: #FFF;
+    text-align: justify;
+    font-family: var(--raleway);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    /* 138.889% */
+}
+
+.about-content {
+    width: 1110px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content__title {
+    color: rgba(105, 207, 23, 0.70);
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.40);
+    font-family: var(--raleway);
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
