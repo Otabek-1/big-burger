@@ -218,7 +218,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    position: relative  ;
+    position: relative;
 }
 
 .card-img {
@@ -256,12 +256,69 @@ body {
     opacity: 0;
 }
 
-.main{
+.main {
     background: #393636;
     padding: 15px;
-    
+    width: 100%;
+    height: 1171px;
 }
 
-.content:hover{
+.content:hover {
     opacity: 1;
+}
+
+.locate {
+    background-color: white;
+    width: 100%;
+}
+
+.locate-title {
+    margin: 20px;
+    padding-top: 20px;
+    color: #69CF17;
+    font-family: var(--raleway);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.locate-map {
+    width: 100%;
+}
+
+.footer {
+    width: 1600px;
+    height: 325px;
+    background: linear-gradient(180deg, #000 0%, rgba(105, 207, 23, 0.50) 100%);
+    padding: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-num {
+    color: #FFF;
+    text-align: right;
+    font-family: var(--raleway);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-list {
+    display: flex;
+    margin: 96px auto;
+    column-gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-link {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--raleway);
+    font-size: 20px;
+    font-weight: 400;
 }
